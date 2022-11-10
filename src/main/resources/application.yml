@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    hikari:
+      jdbc-url: jdbc:h2:mem://localhost/~/testdb;MODE=MYSQL
+  jpa:
+    show-sql: true # 콘솔에서 쿼리 로그 확인
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL57Dialect
+
