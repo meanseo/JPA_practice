@@ -18,4 +18,5 @@ public class PostsController {
     public Long save(@RequestBody PostsSaveRequestDto requestDto){
         return postsService.save(requestDto);
     }
+
 }
